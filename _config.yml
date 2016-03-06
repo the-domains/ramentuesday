@@ -1,29 +1,41 @@
-name: Ramen Tuesday
-favicon: null
-layout_spectrum: 0.4594687467906624
-typography_spectrum: 0.7997819997835904
 title: Ramen Tuesday is for Lovers
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.3419091943651438
+  brandStrength: 0.9376054
+  lightness: 0.9150295462459326
+  brandColors:
+    - '#421F0D'
+    - '#FBFFFF'
+    - '#885328'
+    - '#415B5D'
+    - '#B39977'
+  rhythmicContrast: 0.8612001540604979
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: Ramen Tuesday
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
-  brandStrength: 0.40151384798809886
-  lightness: 0.9150295462459326
-  saturation: 0.3419091943651438
-  rhythmicContrast: 0.8612001540604979
-purpose: []
+typography_spectrum: 0.7997819997835904
+layout_spectrum: 0.1509275
